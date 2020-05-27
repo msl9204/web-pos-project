@@ -1,0 +1,69 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+
+}
+/* header */
+.header-info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    max-width: 1080px;
+    
+} 
+
+
+.middle-box {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* sidebar */
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 200px;
+    height: 800px;
+    margin-right: 50px;
+
+}
+
+
+/* contents */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+
+
+
+}
+
+.tab-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tabs {
+    border: 1px solid black;
+    width: 70px;
+    height: 30px;
+}
+
+.info-contents {
+    border: 1px solid black;
+    width: inherit;
+    height: inherit;
+    margin: 10px 0 0 0;
+
+
+    align-self: center;
+    justify-self: center;
+}
